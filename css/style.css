@@ -1,0 +1,175 @@
+:root {
+    --accent-color:#2196F3;
+    --primery-font:'Roboto', sans-serif;}
+.link {
+    text-decoration: none;}
+.list {
+        list-style: none;
+    }
+img {
+    display: block;
+}
+body {
+    font-family: var(--primery-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    }
+
+.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #212121;}
+ 
+.nav-contacts {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #757575;}
+
+.logo-header {color: black;} 
+
+.logo {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+    
+ .nav-link:hover,
+ .nav-link:focus, 
+ .current
+  {color:var(--accent-color);}
+
+.nav-contacts:hover,
+.nav-contacts:focus
+.current
+  {color:var(--accent-color);}
+
+.button-portfolio {font-family: 'Roboto',
+    sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+.button-portfolio:hover,
+.button-portfolio:focus
+{background-color:var(--accent-color);
+color:#FFFFFF;}
+
+.button-portfolio, .hero-button {cursor:pointer;}
+
+.portfolio-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;}
+
+.portfolio-info {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;}
+
+.logo-footer {
+    color: #FFFFFF;}
+
+.footer-color {
+    background: #2F303A;}
+
+.adress {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #FFFFFF;}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);}
+
+.banner {
+    background-color: #2F303A;}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: left;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+
+.banner-button {font-family: 'Roboto',
+    sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color:var(--accent-color);
+    color: #FFFFFF;}
+
+.advanteges-title {
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;}
+
+.advanteges-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;}
+
+.products-title, .comandos-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: #212121;}
+
+.our-comandos {
+background-color: #F5F4FA;}
+
+.comandos-list {
+background-color: #FFFFFF;}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: left;
+    color: #212121;}
+
+.name-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: left;
+    color: #757575;}
